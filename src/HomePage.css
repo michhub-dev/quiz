@@ -1,0 +1,46 @@
+body {
+    margin: 0px;
+}
+.home-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    width: 550px;
+    left: 95px;
+    top: 112px;
+    border-radius: 0px;
+
+}
+.background-img{
+    margin: 0px 0px 3em auto ;
+    height: 250px;
+    width: 200px;
+    left: 184px;
+    top: 378px;
+    right: -62.24%;
+    bottom: -161.16%;
+    background-position: right right;
+    background-repeat: no-repeat;
+     background: #FFFAD1;
+    transform: rotate(-128.49deg);
+    
+   
+}
+.description{
+    width: 300px;
+    height: 500px;
+    margin: 10px;
+    padding: 10px;
+   
+}
+.title{
+font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 31.25px;
+line-height: 37px;
+text-align: center;
+color: #293264;
+}

@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import HomePage from "./components/HomePage.js"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default function App(){
+    return(
+        <HomePage  />
+    )
 }
 
-export default App;
+/*"react/cjs/react.production.min"
+
+ const mapArray = allQuiz.map(quiz => <HomePage startQuiz={startQuiz}/>)
+
+    useEffect(() => {
+        async function startQuiz() {
+            const res = await fetch("https://opentdb.com/api.php?amount=10&category=9&type=multiple")
+            const data = await res.json()
+            setAllQuiz(data.data.memes)
+            
+        }
+        startQuiz()
+        
+        return () => {
+            
+        }
+    }, []) */
