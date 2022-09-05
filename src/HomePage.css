@@ -1,5 +1,9 @@
+*{
+    box-sizing: border-box;
+}
 body {
     margin: 0px;
+
 }
 .home-container{
     display: flex;
@@ -8,10 +12,7 @@ body {
     align-items: center;
     height: 550px;
     width: 550px;
-    left: 95px;
-    top: 112px;
-    border-radius: 0px;
-
+    background: #e1b2eb;
 }
 .background-img{
     margin: 0px 0px 3em auto ;
@@ -23,7 +24,7 @@ body {
     bottom: -161.16%;
     background-position: right right;
     background-repeat: no-repeat;
-     background: #FFFAD1;
+    background: #c2fa79;
     transform: rotate(-128.49deg);
     
    
@@ -31,9 +32,10 @@ body {
 .description{
     width: 300px;
     height: 500px;
-    margin: 10px;
-    padding: 10px;
-   
+    padding: 20px auto;
+    text-align: center;
+    margin-right: 6em;
+
 }
 .title{
 font-family: 'Karla';
@@ -42,5 +44,26 @@ font-weight: 700;
 font-size: 31.25px;
 line-height: 37px;
 text-align: center;
-color: #293264;
+color: #532964;
+}
+.home-text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #ffffff;
+}
+.home-btn{
+    font-family: karla;
+    width: 193px;
+    height: 52px;
+    background: #914d9e;
+    border-radius: 15px;
+    border: none;
+    font-weight: 700;
+    font-size: 1em;
+    color: #ffffff;
+    outline: none;
 }
