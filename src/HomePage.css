@@ -2,7 +2,11 @@
     box-sizing: border-box;
 }
 body {
-    margin: 0px;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 .home-container{
@@ -12,25 +16,25 @@ body {
     align-items: center;
     height: 550px;
     width: 550px;
-    background: #e1b2eb;
+    position: relative;
+   
 }
 .background-img{
-    margin: 0px 0px 3em auto ;
-    height: 250px;
-    width: 200px;
+    margin: 0px 0px 0px auto ;
+    height: 100px;
+    width: 250px;
     left: 184px;
     top: 378px;
     right: -62.24%;
     bottom: -161.16%;
     background-position: right right;
-    background-repeat: no-repeat;
     transform: rotate(-128.49deg);
-    cursor: pointer;  
+     position: absolute;
 }
 
 .description{
     width: 300px;
-    height: 500px;
+    height: 250px;
     padding: 20px auto;
     text-align: center;
     margin-right: 6em;
@@ -65,6 +69,7 @@ color: #532964;
     font-size: 1em;
     color: #ffffff;
     outline: none;
+    cursor: pointer; 
 }
 .home-btn:hover{
     background: #8f1389;
